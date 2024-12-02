@@ -1,30 +1,28 @@
-# UI Vision: Screenshot to React Component Converter
+# Screenshot to React Component Converter
 
 ## Overview
-UI Vision is an AI-powered tool that converts UI screenshots into React components with Tailwind CSS styling.
+An advanced AI-powered tool that transforms UI screenshots into functional React components using cutting-edge machine learning techniques.
 
 ## Features
-- Drag and drop screenshot upload
-- AI-powered component generation
-- Real-time preview
-- Copy to clipboard functionality
-- Dark theme UI
+- 🖼️ Upload UI screenshots
+- 🤖 AI-powered component generation
+- 💨 Tailwind CSS styling
+- 📋 Instant React component preview
 
 ## Tech Stack
-- Frontend: React, TypeScript, Tailwind CSS
-- Backend: Node.js, Express.js
-- AI Generation: Groq API (Mixtral-8x7b-32768)
+- React (TypeScript)
+- Tailwind CSS
+- Groq AI API
 
 ## Prerequisites
-- Node.js (v14+)
-- npm or yarn
+- Node.js (v16+)
+- npm
 
 ## Installation
-
 1. Clone the repository
 ```bash
-git clone https://github.com/jdhruv555/UI-VISION.git
-cd UI-VISION
+git clone https://github.com/jdhruv555/Screenshot-to-React.git
+cd Screenshot-to-React
 ```
 
 2. Install dependencies
@@ -34,35 +32,32 @@ cd client
 npm install
 ```
 
-3. Set up environment variables
-- Create a `.env` file in the root directory
-- Add your Groq API key: `GROQ_API_KEY=your_api_key_here`
-
 ## Running the Application
-
-1. Start the backend server
 ```bash
-npm run server
+# Start development server
+cd client
+npm start
 ```
 
-2. Start the frontend client
-```bash
-npm run client
-```
-
-3. Open `http://localhost:3000` in your browser
+## How It Works
+1. Upload a UI screenshot
+2. AI analyzes the screenshot
+3. Generate React component with Tailwind styling
 
 ## Contributing
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+MIT License
+
+## Powered By
+- Groq AI
+- React
+- Tailwind CSS
 
 ## Contact
 Dhruv - [GitHub Profile](https://github.com/jdhruv555)
-
-Project Link: [https://github.com/jdhruv555/UI-VISION](https://github.com/jdhruv555/UI-VISION)
